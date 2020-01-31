@@ -1,0 +1,28 @@
+.movieCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.movieImg{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+h3{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Montserrat", sans-serif;
+    color: #fff
+}
+.movieDate{
+    text-align: center;
+    color: #6F777B
+}
